@@ -35,8 +35,6 @@ eureka:
 info:
   app.name: nian-microservicecloud-springcloudconfig01
   company.name: www.nian.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
 ---
 server:
   port: 8001
@@ -72,5 +70,3 @@ eureka:
 info:
   app.name: nian-microservicecloud-springcloudconfig02
   company.name: www.nian.com
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
