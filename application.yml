@@ -1,0 +1,16 @@
+﻿spring:
+  profiles:
+    actives:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-congfig-nian-dev
+
+---
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-nian-test
+#   请保存为utf-8格式
